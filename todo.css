@@ -1,0 +1,60 @@
+/* CSS for to-do list app */
+/* Krista Allgood */
+
+#todoContainer {
+	max-width: 600px;
+	margin: 5% 15%;
+	padding: 10px;
+	border: thin solid #BDC6D1;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #E8EDF2;
+}
+
+#todoContainer ul {
+	padding: 0;
+	word-wrap: break-word;
+}
+
+#todoContainer li {
+	min-width: 80%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-indent: 2%;
+	display: inline-block; /*Helps float closebtn right*/
+	background-color: #9EC4D8;
+}
+
+#todoContainer li:nth-child(even) {
+	background-color: #F4FAF5;
+}
+
+#todoContainer input {
+	max-width: 80%;
+	box-sizing: border-box;
+}
+
+#addbtn {
+	width: 45px;
+	height: 35px;
+	margin-left: 1%;
+	border-radius: 5px;
+	background-color: #9CA568;
+	font-size: .8em;
+}
+
+.closebtn {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  float: right;
+  background-color: #DE7269;
+  font-size: .8em;
+}
+
+/* This class is applied to the list items via JS. */
+
+.item {
+	width: 90%;
+	margin-right: 4%; /* compensates for addbtn */
+}
