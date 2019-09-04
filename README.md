@@ -1,2 +1,2 @@
 # todolist
-A to-do list built with JavaScript
+A to-do list built with vanilla JavaScript
